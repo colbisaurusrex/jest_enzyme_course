@@ -83,9 +83,11 @@
   },
   "devDependencies": {
     "babel-plugin-react-remove-properties": "^0.3.0",
+    "check-prop-types": "^1.1.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "jest-enzyme": "^7.1.2"
+    "jest-enzyme": "^7.1.2",
+    "prop-types": "^15.7.2"
   },
   "jest": {
     "roots": [
