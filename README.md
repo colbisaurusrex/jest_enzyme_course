@@ -31,3 +31,5 @@ npm run eject
 Update bable config in `package.json`
 
 Create production build
+
+NOTE: Not crazy about ejecting and I'm surprised to see it recommended here. As I understand, this excludes you from updates to create-react-app in the future.
