@@ -5,6 +5,8 @@ Tests one piece of code (usually one function)
 #### Integration Tests
 How multiple units work together
 
+In this course, we do integration tests with action creators and reducers.
+
 #### Acceptance/End-to-end (E2E) Tests
 How a user would interact with app. This course doesn't go over these types of tests.
 
