@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 
-import GuessedWords from './GuessedWords'
-import Input from './Input'
+import GuessedWords from './GuessedWords';
+import Input from './Input';
 
 class App extends Component {
   render() {

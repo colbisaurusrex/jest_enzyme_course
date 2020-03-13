@@ -25,6 +25,10 @@ When writing tests, you should be testing behavior not implementation.
 
 ## TDD and Red/Green Tests
 
+- ALWAYS ensure you see a test fail first (aka see red). This means it's working. Then make it green.
+
+With TDD, you are defining the behavior you want to see in tests. Then you implement that behavior piecemeal and turn tests green.
+
 ## Removing data-test attributes
 
 What was done to remove the data-test attribute from elements in production environments
