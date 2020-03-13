@@ -62,3 +62,18 @@ Used storeFactory and passed the store directly to the component being tested. R
 Connected components is closer to the app and can work with the store. Non-connected components are further from the app and can pass mock action creators as props.
 
 Examples of both in this course.
+
+## Why moxios
+
+Do not want to test server when testing app. That's because we want to isolate the tests. When an app fails we know the app is failing, not the server or the connection to the server.
+
+### How does moxios work?
+
+Test intalls moxios
+    * axios will now send requests to moxios instead of http
+    * Test specifies moxios response
+    * Test calls action creators
+    * Action creator calls axios
+        * axios uses moxios instead of http for request
+    * Action creator receives moxios response from axios
+
