@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { guessWord } from './actions';
-import Congrats from './Congrats';
 
 class Input extends Component {
     render() {
         const contents = this.props.success
-        ? <Congrats success={true} />
+        ? null
         : (
             <form className="form-inline">
                 <input
