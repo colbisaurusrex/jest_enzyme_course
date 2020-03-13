@@ -81,3 +81,10 @@ Test intalls moxios
         * axios uses moxios instead of http for request
     * Action creator receives moxios response from axios
 
+## To use this app
+
+Install packages via npm start in each directory
+then:
+`cd random-word-server && start`
+then:
+`cd jotto && npm start`
