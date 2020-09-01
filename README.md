@@ -1,4 +1,4 @@
-These are my notes and code examples from a Udemy course on testing [React with Jest and Enzyme[(https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10533054#content)
+These are my notes and code examples from a Udemy course on testing [React with Jest and Enzyme](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10533054#content)
 
 ## Types of Tests
 #### Unit Tests
